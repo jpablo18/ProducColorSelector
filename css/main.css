@@ -1,0 +1,33 @@
+#picture {
+  /* You were missing the single quotes around the path */
+  background-image: url("../img/lightgreen-t.jpg");
+
+  /* You need to specify the height and width of the div and you should be good. */
+  height: 600px;
+  margin-top: 2rem;
+  /* margin-left: 0rem; */
+  background-repeat: no-repeat;
+}
+.pink {
+  background-color: rgb(255, 47, 117);
+  border-color: rgb(255, 47, 117);
+}
+.blue {
+  background-color: lightblue;
+  border-color: lightblue;
+}
+.green {
+  background-color: rgb(138, 224, 138);
+  border-color: rgb(138, 224, 138);
+}
+button {
+  color: white;
+  height: 40px;
+  width: 100px;
+}
+ {
+  color: white;
+}
+body {
+  background-image: url("https://www.brennancenter.org/sites/default/files/2020-12/20201208_OP_GT1252694525RF_1630x932.jpg");
+}
